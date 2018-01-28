@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
+    //Call Single runtime permission request
     private void requestSinglePermission() {
         Dexter.withActivity(this)
                 .withPermission(Manifest.permission.CAMERA)
